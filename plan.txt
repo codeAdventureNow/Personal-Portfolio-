@@ -6,3 +6,7 @@
 6. Links to my Git Hub, LinkedIN, Twitter
 7. What are the main html tags I should use
 
+
+What is the smallest width screen size I should plan for?
+
+How do I compress photos to load quick?
