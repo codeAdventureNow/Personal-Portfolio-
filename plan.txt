@@ -15,3 +15,6 @@ How can I start to show my contributions?
 How do I prevent pics from content/pics from being partially offscreen?
 
 How do I get rid of little dash at the bottom of the profile links?
+
+-pics same dimensions
+-links go to web pages
