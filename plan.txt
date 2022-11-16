@@ -17,3 +17,11 @@ How do I get rid of little dash at the bottom of the profile links?
 
 used microsoft photo editing to make square
 https://tinypng.com/ to compress
+
+
+  I began learning Javascript in January of 2022 through a mix of
+              online courses and a one-on-one mentorship. My focus is building
+              modern web apps with React.
+
+
+ I started web dev journey in January 2022 with Javascript.  Since then I picked up skills in HTML/CSS and I am working towards React.             
