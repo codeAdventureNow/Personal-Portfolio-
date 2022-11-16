@@ -40,6 +40,7 @@ body {
 
 p {
     font-size: 14px;
+    padding: 0px 15px
     
 }
 
@@ -51,6 +52,12 @@ h2 {
 
 .h1-color {
     color: var(--navy);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .about {
@@ -90,6 +97,13 @@ h2 {
     align-items: center;
 }
 
+.img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 .project-images {
     width: 270px;
     border-radius: 10px;
@@ -109,5 +123,46 @@ h2 {
 }
 
 @media (min-width: 768px) {
+.about {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 55px;
+}
+
+.about-img {
+    
+    width: 225px; 
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.img-container {
+
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px 55px;
+    gap: 2rem;
+
+}
+
+.project-images {
+    width: 300px;
+    
+}
+
+p {
+    font-size: 16px;
+   
+    
+}
+
+h1 {
+font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+}
 
 }

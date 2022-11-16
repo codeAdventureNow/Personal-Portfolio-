@@ -11,3 +11,7 @@ What is the smallest width screen size I should plan for?
 How do I compress photos to load quick?
 Should I add a skills section?  Like Brad's
 How can I start to show my contributions?
+
+How do I prevent pics from content/pics from being partially offscreen?
+
+How do I get rid of little dash at the bottom of the profile links?
