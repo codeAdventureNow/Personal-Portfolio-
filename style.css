@@ -120,9 +120,14 @@ h2 {
 }
 
 .icons {
-    height: 30px;
+    height: 35px;
     margin: 15px 5px;
 }
+
+/* a {
+    
+    margin: 0px 10px;
+} */
 
 @media (min-width: 768px) {
 
