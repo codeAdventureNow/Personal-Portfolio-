@@ -30,6 +30,7 @@ font-family: 'Staatliches', cursive; */
 body {
     background-color: var(--lemon);
     font-family: 'Alata', sans-serif;
+  
     
 }
 .wrapper {
@@ -44,19 +45,25 @@ p {
 
 h2 {
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 
-.h1-color {
 
+.h1-color {
     color: var(--navy);
 }
 
 .about {
-    
     display: flex;
     flex-direction: column;
     align-items: center;
-  
+}
+
+.about-img {
+    margin-top: 25px;
+    width: 175px; 
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 .about-content {
@@ -69,21 +76,12 @@ h2 {
 
 .about-content h2 {
     margin-top: 15px;
-    margin-bottom: 10px;
-}
-
-.about-img {
-    margin-top: 25px;
-    width: 175px; 
-    border-radius: 5px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 .hr {
     margin-top: 20px;
     width: 70%;
-   border: 0.5px solid var(--teal);
-    
+   border: 0.5px solid var(--teal); 
 }
 
 .projects {
@@ -105,24 +103,10 @@ h2 {
     align-items: center;
 }
 
-.profiles h2 {
-    margin-bottom: 10px;
-}
-
-
-
 .icons {
-   
-   
     height: 30px;
     margin: 15px 5px;
 }
-
-
-
-/* .fa-brands { 
-   background-color: var(--lime);
-} */
 
 @media (min-width: 768px) {
 
