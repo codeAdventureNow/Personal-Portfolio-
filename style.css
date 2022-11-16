@@ -46,6 +46,11 @@ h2 {
     margin-top: 20px;
 }
 
+.h1-color {
+
+    color: var(--navy);
+}
+
 .about {
     
     display: flex;
@@ -69,7 +74,7 @@ h2 {
 
 .about-img {
     margin-top: 25px;
-    width: 150px; 
+    width: 175px; 
     border-radius: 5px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
