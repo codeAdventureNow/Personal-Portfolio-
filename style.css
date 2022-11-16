@@ -46,17 +46,57 @@ body {
 }
 
 .about-content {
-    margin: 0 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
     width: 300px;
+}
+
+.about-content h2 {
+    margin-bottom: 10px;
 }
 
 .about-img {
     margin-top: 25px;
     width: 150px; 
     border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
+.hr {
+    margin-top: 20px;
+    width: 70%;
+   border: 0.5px solid var(--teal);
+    
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-images {
+    width: 270px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.profiles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ h2 {
+    margin-top: 20px;
+}
+
+/* .fa-brands { 
+   background-color: var(--lime);
+} */
 
 @media (min-width: 768px) {
 
